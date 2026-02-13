@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/dreamliner21/tele-waa.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "v1"]
+	remote = origin
+	merge = refs/heads/v1
+	vscode-merge-base = origin/v1
